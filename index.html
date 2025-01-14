@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment and Appointment Page</title>
+    <link rel="stylesheet" href="client_payment.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo-logo">Business LOGO</h1>
+       <div class="nav-content">
+        
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+       </div>
+    </nav>
+
+    <div class="content">
+        <h1>Select Your Payment Method</h1>
+        <button class="payment-btn">I am paying for the service</button>
+        <button class="payment-btn">Thru Partner Company</button>
+        <button class="payment-btn">Via Insurance Coverage</button>
+
+        <h1>Select Your Therapy Type</h1>
+        <button class="therapy-btn">First Counseling Session (Direct Client)</button>
+        <button class="therapy-btn">Follow-up Counseling Session (Direct Client)</button>
+        <button class="therapy-btn">Other Therapy Session</button>
+
+        <h1>Pick Your Appointment Date</h1>
+        <input type="date" id="appointment-date">
+
+        <h1>Select Your Preferred Time</h1>
+        <button class="time-btn">Morning</button>
+        <button class="time-btn">Afternoon</button>
+
+        <div class="navigation-btns">
+            <button class="nav-btn" onclick="window.location.href='index.html'">Back</button>
+            <button class="nav-btn" onclick="window.location.href='form.html'">Next</button>
+        </div>
+    </div>
+
+    <script src="client_payment.js"></script>
+</body>
+
+</html>
