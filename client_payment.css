@@ -12,7 +12,7 @@ body {
     margin: 0 auto;
     padding: 1rem;
     box-sizing: border-box;
-    background: #8dc9e1;
+    background: #6b8893;
 }
 
 .nav-content{
@@ -58,7 +58,7 @@ a {
     position: absolute;
     bottom: -2px;
     top: 100%;
-    left: 0;
+    left: 0;    
     width: 0%;
     height: 2px;
     background: #fff;
@@ -67,6 +67,12 @@ a {
 
 .nav-links{
     display: flex;
+}
+
+.logo{
+    justify-content: center;
+    align-items: center;
+    width: 150px;
 }
 
 .content {
